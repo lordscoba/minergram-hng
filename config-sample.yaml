@@ -1,0 +1,18 @@
+mongodb:
+  url: "mongodb+srv://pictureminer:pictureminer@cluster0.qq7vze3.mongodb.net/?retryWrites=true&w=majority"
+  database: "pictureminer-api"
+Redis:
+  redishost: "localhost"
+  Redisport: "6379"
+server:
+  port: "9000"
+  secret: "mySecretKey"
+s3:
+  AWSRegion: "us-east-1"
+  AWSAccessKeyID : "AKIAXOMDBDAFLLTWLU4Y"
+  AWSSecretAccessKey : "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"
+  BucketName : "miner-pictures"
+python: 
+  microservicehost: "https://yiowpv.deta.dev/api/microservice/content"
+  # Change when the microservice host for prompt is available
+  microserviceprompthost: "https://yiowpv.deta.dev/api/microservice/content"
